@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '16.0'
 
 target 'NuanceSDKWrapper_Example' do
   pod 'NuanceSDKWrapper', :path => '../'

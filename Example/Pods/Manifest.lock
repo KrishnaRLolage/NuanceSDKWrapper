@@ -1,0 +1,16 @@
+PODS:
+  - NuanceSDKWrapper (0.1.0)
+
+DEPENDENCIES:
+  - NuanceSDKWrapper (from `../`)
+
+EXTERNAL SOURCES:
+  NuanceSDKWrapper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NuanceSDKWrapper: 0180da3f935db786942870df256d9ca63eab7027
+
+PODFILE CHECKSUM: 1c81016d78b200987def93bcc60c3fbf7269e2a8
+
+COCOAPODS: 1.16.2

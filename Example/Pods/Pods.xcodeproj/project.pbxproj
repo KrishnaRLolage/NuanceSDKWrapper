@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06FF1C4F22178D509685F432A6A1007E /* NuanceSDKWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB3798BEBA76FC83E4679A70B07A838 /* NuanceSDKWrapper-dummy.m */; };
+		12AAAF56E9EEF4C07C1ADD92B8E5CFD9 /* DLDictationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 679A9CF86083DCA3E250354D3AB9B385 /* DLDictationManager.m */; };
+		1FD434F52D38F68800A269E1 /* Dragon-Medical-SpeechKit-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = 938EF3093F2A53C1A13CB271 /* Dragon-Medical-SpeechKit-iOS */; };
+		4762653395A2764EE3D63B6E5AE6BF46 /* Pods-NuanceSDKWrapper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A73CDAE61FE10736815F8888270E041 /* Pods-NuanceSDKWrapper_Example-dummy.m */; };
+		B37A0A52F436A6C9BAA645C481917064 /* NuanceSDKWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C84130B6DCD75AFA64B8F13CA4E45399 /* NuanceSDKWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA4F6F478F0CF5A3C75D45234293EDF2 /* DLDictationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F328DDC92902C6D58E3CE27B3C14FF71 /* DLDictationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3836A09AC802F604383EB487769B630 /* Pods-NuanceSDKWrapper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B11C706C8E1146A9274C7F223C0BF397 /* Pods-NuanceSDKWrapper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E202E769186D58E272650B39A7170ABD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		E23B74D8398D00395B1EBD8B9AC00A5F /* Pods-NuanceSDKWrapper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB7026EF40E2ABB538DA8F2A28BCDCA /* Pods-NuanceSDKWrapper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E85CB09623A1964C263C569F26A4A890 /* Pods-NuanceSDKWrapper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF95B53CDB738AED2211014493A47EE /* Pods-NuanceSDKWrapper_Tests-dummy.m */; };
+		FA13CD9141B9AE988612D858067F2FC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		FAE99EBAA9BA240F26AD25DBA0A87438 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A70A96B66E556031FC3821312B9483C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24AB1806CA2B130EA97D67802C10D91;
+			remoteInfo = NuanceSDKWrapper;
+		};
+		D70DBC9205E44DA8E9FC0CD03BDB41E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F05101C7EC928F0F1294415DE77D00;
+			remoteInfo = "Pods-NuanceSDKWrapper_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E8910D07BB2BC2D603394918107140 /* Pods-NuanceSDKWrapper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NuanceSDKWrapper_Example.modulemap"; sourceTree = "<group>"; };
+		0FF95B53CDB738AED2211014493A47EE /* Pods-NuanceSDKWrapper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NuanceSDKWrapper_Tests-dummy.m"; sourceTree = "<group>"; };
+		1346540D7A3A6EE2195E90FA13B6BE22 /* Pods-NuanceSDKWrapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NuanceSDKWrapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		173768265D19FBADC7D4EDF005E731B7 /* NuanceSDKWrapper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NuanceSDKWrapper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1A73CDAE61FE10736815F8888270E041 /* Pods-NuanceSDKWrapper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NuanceSDKWrapper_Example-dummy.m"; sourceTree = "<group>"; };
+		1C307F6BF063E2BDC8096198E91EAEDF /* Pods-NuanceSDKWrapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NuanceSDKWrapper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1DB7026EF40E2ABB538DA8F2A28BCDCA /* Pods-NuanceSDKWrapper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NuanceSDKWrapper_Example-umbrella.h"; sourceTree = "<group>"; };
+		3160F33F19995852BAE6B5B2E595658E /* Pods-NuanceSDKWrapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NuanceSDKWrapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E7E4855EF5F141D392A5F3C88F3BF37 /* NuanceSDKWrapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NuanceSDKWrapper.release.xcconfig; sourceTree = "<group>"; };
+		40781E941B78A8F7753C5BCD0AF23B60 /* Pods-NuanceSDKWrapper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NuanceSDKWrapper_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4BE2D207756803B94B44901B3BFFB5D5 /* NuanceSDKWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NuanceSDKWrapper.modulemap; sourceTree = "<group>"; };
+		543B1ACD3CA26A799F72385DFE54685C /* Pods-NuanceSDKWrapper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NuanceSDKWrapper_Tests-Info.plist"; sourceTree = "<group>"; };
+		59266C4F71C02E6EFD28E960A1A13558 /* Pods-NuanceSDKWrapper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NuanceSDKWrapper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63642947DFAE006A4DEC275EA49FE97A /* Pods-NuanceSDKWrapper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NuanceSDKWrapper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		679A9CF86083DCA3E250354D3AB9B385 /* DLDictationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLDictationManager.m; path = NuanceSDKWrapper/Classes/DLDictationManager.m; sourceTree = "<group>"; };
+		6823E9A1A98E0FC2119A9CEACD76425E /* Pods-NuanceSDKWrapper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NuanceSDKWrapper_Tests.modulemap"; sourceTree = "<group>"; };
+		68F88D1904C18B65D0F1BC995E9B207D /* Pods-NuanceSDKWrapper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NuanceSDKWrapper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8DD17ABB61A622A820B5A3E340644932 /* Pods_NuanceSDKWrapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NuanceSDKWrapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A4C36BE795B52939D30C888F8AFFC4 /* NuanceSDKWrapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NuanceSDKWrapper.debug.xcconfig; sourceTree = "<group>"; };
+		98E364F61B9F9642B3264EDD693D9173 /* Pods-NuanceSDKWrapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NuanceSDKWrapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FB3798BEBA76FC83E4679A70B07A838 /* NuanceSDKWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NuanceSDKWrapper-dummy.m"; sourceTree = "<group>"; };
+		A09D5C978DE352E21503B77E6DB6B16E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A23142EFFDD0EA29B464939278CA46F4 /* Pods_NuanceSDKWrapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NuanceSDKWrapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11C706C8E1146A9274C7F223C0BF397 /* Pods-NuanceSDKWrapper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NuanceSDKWrapper_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C32EDD424618039EB5873EEAF7462B6D /* Pods-NuanceSDKWrapper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NuanceSDKWrapper_Example-Info.plist"; sourceTree = "<group>"; };
+		C544FD5F9429B256FBF661FCD630120F /* NuanceSDKWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NuanceSDKWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84130B6DCD75AFA64B8F13CA4E45399 /* NuanceSDKWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NuanceSDKWrapper-umbrella.h"; sourceTree = "<group>"; };
+		CA6109D3285D48A91641FCFAD1CFBCC2 /* NuanceSDKWrapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NuanceSDKWrapper-Info.plist"; sourceTree = "<group>"; };
+		EAA3F819E5CC5EDEB0BE1F7D46B3761A /* Pods-NuanceSDKWrapper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NuanceSDKWrapper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0E1D40C19F7C67F54B5F62523DEF37B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F328DDC92902C6D58E3CE27B3C14FF71 /* DLDictationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLDictationManager.h; path = NuanceSDKWrapper/Classes/DLDictationManager.h; sourceTree = "<group>"; };
+		F7529353051A48414545B362270B3509 /* NuanceSDKWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NuanceSDKWrapper-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4124226C68EFD44BC3D7BEEF2AB8799B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA13CD9141B9AE988612D858067F2FC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D99567509CA77BD137E09625A55362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD434F52D38F68800A269E1 /* Dragon-Medical-SpeechKit-iOS in Frameworks */,
+				FAE99EBAA9BA240F26AD25DBA0A87438 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA8CB50C01166B7E583A08944333183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E202E769186D58E272650B39A7170ABD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EB607065E0D68CA23199C6A30799917 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3160CC21AC625AB769332AE52260BB77 /* NuanceSDKWrapper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3160CC21AC625AB769332AE52260BB77 /* NuanceSDKWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				F328DDC92902C6D58E3CE27B3C14FF71 /* DLDictationManager.h */,
+				679A9CF86083DCA3E250354D3AB9B385 /* DLDictationManager.m */,
+				9C61B45426EFA90A0CFB86378CFCB855 /* Pod */,
+				D5D95399FF815D0EB373C6545D6BA9CC /* Support Files */,
+			);
+			name = NuanceSDKWrapper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		433F17C9C4DF84EE10E0119CA4F91512 /* Pods-NuanceSDKWrapper_Example */ = {
+			isa = PBXGroup;
+			children = (
+				04E8910D07BB2BC2D603394918107140 /* Pods-NuanceSDKWrapper_Example.modulemap */,
+				63642947DFAE006A4DEC275EA49FE97A /* Pods-NuanceSDKWrapper_Example-acknowledgements.markdown */,
+				68F88D1904C18B65D0F1BC995E9B207D /* Pods-NuanceSDKWrapper_Example-acknowledgements.plist */,
+				1A73CDAE61FE10736815F8888270E041 /* Pods-NuanceSDKWrapper_Example-dummy.m */,
+				40781E941B78A8F7753C5BCD0AF23B60 /* Pods-NuanceSDKWrapper_Example-frameworks.sh */,
+				C32EDD424618039EB5873EEAF7462B6D /* Pods-NuanceSDKWrapper_Example-Info.plist */,
+				1DB7026EF40E2ABB538DA8F2A28BCDCA /* Pods-NuanceSDKWrapper_Example-umbrella.h */,
+				1346540D7A3A6EE2195E90FA13B6BE22 /* Pods-NuanceSDKWrapper_Example.debug.xcconfig */,
+				1C307F6BF063E2BDC8096198E91EAEDF /* Pods-NuanceSDKWrapper_Example.release.xcconfig */,
+			);
+			name = "Pods-NuanceSDKWrapper_Example";
+			path = "Target Support Files/Pods-NuanceSDKWrapper_Example";
+			sourceTree = "<group>";
+		};
+		5FCC04744C9198CC162AB53A9765DFFF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				433F17C9C4DF84EE10E0119CA4F91512 /* Pods-NuanceSDKWrapper_Example */,
+				969DA0EC27AAB49F72AF45A9FEFD6C2C /* Pods-NuanceSDKWrapper_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		969DA0EC27AAB49F72AF45A9FEFD6C2C /* Pods-NuanceSDKWrapper_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6823E9A1A98E0FC2119A9CEACD76425E /* Pods-NuanceSDKWrapper_Tests.modulemap */,
+				59266C4F71C02E6EFD28E960A1A13558 /* Pods-NuanceSDKWrapper_Tests-acknowledgements.markdown */,
+				EAA3F819E5CC5EDEB0BE1F7D46B3761A /* Pods-NuanceSDKWrapper_Tests-acknowledgements.plist */,
+				0FF95B53CDB738AED2211014493A47EE /* Pods-NuanceSDKWrapper_Tests-dummy.m */,
+				543B1ACD3CA26A799F72385DFE54685C /* Pods-NuanceSDKWrapper_Tests-Info.plist */,
+				B11C706C8E1146A9274C7F223C0BF397 /* Pods-NuanceSDKWrapper_Tests-umbrella.h */,
+				3160F33F19995852BAE6B5B2E595658E /* Pods-NuanceSDKWrapper_Tests.debug.xcconfig */,
+				98E364F61B9F9642B3264EDD693D9173 /* Pods-NuanceSDKWrapper_Tests.release.xcconfig */,
+			);
+			name = "Pods-NuanceSDKWrapper_Tests";
+			path = "Target Support Files/Pods-NuanceSDKWrapper_Tests";
+			sourceTree = "<group>";
+		};
+		9C61B45426EFA90A0CFB86378CFCB855 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F0E1D40C19F7C67F54B5F62523DEF37B /* LICENSE */,
+				173768265D19FBADC7D4EDF005E731B7 /* NuanceSDKWrapper.podspec */,
+				A09D5C978DE352E21503B77E6DB6B16E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1EB607065E0D68CA23199C6A30799917 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FFA05D35F0B4FB99EDE189FA608F10B9 /* Products */,
+				5FCC04744C9198CC162AB53A9765DFFF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5D95399FF815D0EB373C6545D6BA9CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BE2D207756803B94B44901B3BFFB5D5 /* NuanceSDKWrapper.modulemap */,
+				9FB3798BEBA76FC83E4679A70B07A838 /* NuanceSDKWrapper-dummy.m */,
+				CA6109D3285D48A91641FCFAD1CFBCC2 /* NuanceSDKWrapper-Info.plist */,
+				F7529353051A48414545B362270B3509 /* NuanceSDKWrapper-prefix.pch */,
+				C84130B6DCD75AFA64B8F13CA4E45399 /* NuanceSDKWrapper-umbrella.h */,
+				98A4C36BE795B52939D30C888F8AFFC4 /* NuanceSDKWrapper.debug.xcconfig */,
+				3E7E4855EF5F141D392A5F3C88F3BF37 /* NuanceSDKWrapper.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NuanceSDKWrapper";
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FFA05D35F0B4FB99EDE189FA608F10B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C544FD5F9429B256FBF661FCD630120F /* NuanceSDKWrapper.framework */,
+				8DD17ABB61A622A820B5A3E340644932 /* Pods_NuanceSDKWrapper_Example.framework */,
+				A23142EFFDD0EA29B464939278CA46F4 /* Pods_NuanceSDKWrapper_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4C7C3C94E8818C80B14C2147FD9B8CB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3836A09AC802F604383EB487769B630 /* Pods-NuanceSDKWrapper_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C776E9357869E7268970BD1FF06D28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23B74D8398D00395B1EBD8B9AC00A5F /* Pods-NuanceSDKWrapper_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE76ECFBAA09D7C3BFD8663E68E10D11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4F6F478F0CF5A3C75D45234293EDF2 /* DLDictationManager.h in Headers */,
+				B37A0A52F436A6C9BAA645C481917064 /* NuanceSDKWrapper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03F05101C7EC928F0F1294415DE77D00 /* Pods-NuanceSDKWrapper_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DC3EF8F684EA39681CD3304E5CAEB7 /* Build configuration list for PBXNativeTarget "Pods-NuanceSDKWrapper_Example" */;
+			buildPhases = (
+				D7C776E9357869E7268970BD1FF06D28 /* Headers */,
+				28E4CB6B8D34C476656804330CBD48A7 /* Sources */,
+				FEA8CB50C01166B7E583A08944333183 /* Frameworks */,
+				D0E7823136FF1E236AEEC348541E0369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40A2259DEF9F98D5EE5C9B3578384F16 /* PBXTargetDependency */,
+			);
+			name = "Pods-NuanceSDKWrapper_Example";
+			productName = Pods_NuanceSDKWrapper_Example;
+			productReference = 8DD17ABB61A622A820B5A3E340644932 /* Pods_NuanceSDKWrapper_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9599C2FB45BAD6F85CC1901A93E8A923 /* Pods-NuanceSDKWrapper_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88DF7A75D614F50C3DFAA2353E7E81D8 /* Build configuration list for PBXNativeTarget "Pods-NuanceSDKWrapper_Tests" */;
+			buildPhases = (
+				4C7C3C94E8818C80B14C2147FD9B8CB8 /* Headers */,
+				38FE36763D8110B3174F1DA7E2DD26CE /* Sources */,
+				4124226C68EFD44BC3D7BEEF2AB8799B /* Frameworks */,
+				257DA6B3CD0A075BC2CBBAFED301E797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFA239DDA6764408AB14AE65A6A8D249 /* PBXTargetDependency */,
+			);
+			name = "Pods-NuanceSDKWrapper_Tests";
+			productName = Pods_NuanceSDKWrapper_Tests;
+			productReference = A23142EFFDD0EA29B464939278CA46F4 /* Pods_NuanceSDKWrapper_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F24AB1806CA2B130EA97D67802C10D91 /* NuanceSDKWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1198CEFCC5102A720DEEAF663073D1D /* Build configuration list for PBXNativeTarget "NuanceSDKWrapper" */;
+			buildPhases = (
+				EE76ECFBAA09D7C3BFD8663E68E10D11 /* Headers */,
+				9405320072B79A93A4D24C9E0296CD67 /* Sources */,
+				B2D99567509CA77BD137E09625A55362 /* Frameworks */,
+				F6AF462E358CA21D0855825A19E61A12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NuanceSDKWrapper;
+			packageProductDependencies = (
+				938EF3093F2A53C1A13CB271 /* Dragon-Medical-SpeechKit-iOS */,
+			);
+			productName = NuanceSDKWrapper;
+			productReference = C544FD5F9429B256FBF661FCD630120F /* NuanceSDKWrapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			packageReferences = (
+				E37F25A806D77C0AEABAAA1D /* XCRemoteSwiftPackageReference "Dragon-Medical-SpeechKit-iOS" */,
+			);
+			productRefGroup = FFA05D35F0B4FB99EDE189FA608F10B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F24AB1806CA2B130EA97D67802C10D91 /* NuanceSDKWrapper */,
+				03F05101C7EC928F0F1294415DE77D00 /* Pods-NuanceSDKWrapper_Example */,
+				9599C2FB45BAD6F85CC1901A93E8A923 /* Pods-NuanceSDKWrapper_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		257DA6B3CD0A075BC2CBBAFED301E797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E7823136FF1E236AEEC348541E0369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6AF462E358CA21D0855825A19E61A12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28E4CB6B8D34C476656804330CBD48A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4762653395A2764EE3D63B6E5AE6BF46 /* Pods-NuanceSDKWrapper_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FE36763D8110B3174F1DA7E2DD26CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85CB09623A1964C263C569F26A4A890 /* Pods-NuanceSDKWrapper_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9405320072B79A93A4D24C9E0296CD67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AAAF56E9EEF4C07C1ADD92B8E5CFD9 /* DLDictationManager.m in Sources */,
+				06FF1C4F22178D509685F432A6A1007E /* NuanceSDKWrapper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40A2259DEF9F98D5EE5C9B3578384F16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NuanceSDKWrapper;
+			target = F24AB1806CA2B130EA97D67802C10D91 /* NuanceSDKWrapper */;
+			targetProxy = A70A96B66E556031FC3821312B9483C5 /* PBXContainerItemProxy */;
+		};
+		EFA239DDA6764408AB14AE65A6A8D249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NuanceSDKWrapper_Example";
+			target = 03F05101C7EC928F0F1294415DE77D00 /* Pods-NuanceSDKWrapper_Example */;
+			targetProxy = D70DBC9205E44DA8E9FC0CD03BDB41E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15A8FF8F008FD872844BE256ECCF1659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7E4855EF5F141D392A5F3C88F3BF37 /* NuanceSDKWrapper.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/NuanceSDKWrapper/NuanceSDKWrapper-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/NuanceSDKWrapper/NuanceSDKWrapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NuanceSDKWrapper/NuanceSDKWrapper.modulemap";
+				PRODUCT_MODULE_NAME = NuanceSDKWrapper;
+				PRODUCT_NAME = NuanceSDKWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		905B744E31F15B0CC959574C01B75E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98A4C36BE795B52939D30C888F8AFFC4 /* NuanceSDKWrapper.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/NuanceSDKWrapper/NuanceSDKWrapper-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/NuanceSDKWrapper/NuanceSDKWrapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NuanceSDKWrapper/NuanceSDKWrapper.modulemap";
+				PRODUCT_MODULE_NAME = NuanceSDKWrapper;
+				PRODUCT_NAME = NuanceSDKWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9285D5D31F9350BD001909014D659FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1346540D7A3A6EE2195E90FA13B6BE22 /* Pods-NuanceSDKWrapper_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-NuanceSDKWrapper_Example/Pods-NuanceSDKWrapper_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NuanceSDKWrapper_Example/Pods-NuanceSDKWrapper_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9EDBCEC597E226BE73807D0152627CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3160F33F19995852BAE6B5B2E595658E /* Pods-NuanceSDKWrapper_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-NuanceSDKWrapper_Tests/Pods-NuanceSDKWrapper_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NuanceSDKWrapper_Tests/Pods-NuanceSDKWrapper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C78FB9810029EE394E92103333990E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98E364F61B9F9642B3264EDD693D9173 /* Pods-NuanceSDKWrapper_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-NuanceSDKWrapper_Tests/Pods-NuanceSDKWrapper_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NuanceSDKWrapper_Tests/Pods-NuanceSDKWrapper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9CA37C5386DB62523FB5FFFB6DEAA43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C307F6BF063E2BDC8096198E91EAEDF /* Pods-NuanceSDKWrapper_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-NuanceSDKWrapper_Example/Pods-NuanceSDKWrapper_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NuanceSDKWrapper_Example/Pods-NuanceSDKWrapper_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DC3EF8F684EA39681CD3304E5CAEB7 /* Build configuration list for PBXNativeTarget "Pods-NuanceSDKWrapper_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9285D5D31F9350BD001909014D659FCA /* Debug */,
+				E9CA37C5386DB62523FB5FFFB6DEAA43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88DF7A75D614F50C3DFAA2353E7E81D8 /* Build configuration list for PBXNativeTarget "Pods-NuanceSDKWrapper_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDBCEC597E226BE73807D0152627CC2 /* Debug */,
+				C78FB9810029EE394E92103333990E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1198CEFCC5102A720DEEAF663073D1D /* Build configuration list for PBXNativeTarget "NuanceSDKWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905B744E31F15B0CC959574C01B75E36 /* Debug */,
+				15A8FF8F008FD872844BE256ECCF1659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E37F25A806D77C0AEABAAA1D /* XCRemoteSwiftPackageReference "Dragon-Medical-SpeechKit-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nuance-communications/Dragon-Medical-SpeechKit-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.17;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		938EF3093F2A53C1A13CB271 /* Dragon-Medical-SpeechKit-iOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E37F25A806D77C0AEABAAA1D /* XCRemoteSwiftPackageReference "Dragon-Medical-SpeechKit-iOS" */;
+			productName = "Dragon-Medical-SpeechKit-iOS";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,15 @@
+{
+  "originHash" : "dc06a2feef406d4d1bc451ed78bc49f3be92e2094fb514f9bbc3b53735fa1785",
+  "pins" : [
+    {
+      "identity" : "dragon-medical-speechkit-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nuance-communications/Dragon-Medical-SpeechKit-iOS.git",
+      "state" : {
+        "revision" : "0452e453df5f1a1395d94c12089deb2b6fd448a7",
+        "version" : "6.1.17"
+      }
+    }
+  ],
+  "version" : 3
+}
